@@ -8,7 +8,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'fullthrottle_backend.settings')
 django.setup()
 
 from activity_api.models import Member, MemberActivity
-json_path = "/home/war_machine/PycharmProjects/fulltrottlelabs_assg/activity_api/sample.json"
+json_path = "path to sample.json file"
 file = open(json_path)
 
 data = json.load(file)
